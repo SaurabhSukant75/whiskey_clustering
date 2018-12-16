@@ -104,12 +104,12 @@
    <p>here,o,1,2,3,4 show the label of class ,they are just dummy variables to describe different cluster.</p>
 <p>
    <ul>
- <li><b> index  whisky_name label_of_class<b></li>
-<li>0           AnCnoc  0</li>
-<li>1     Auchentoshan  0</li>
-<li>2         Balblair  0</li>
-<li>3    Bruichladdich  0</li>
-<li>4     Bunnahabhain  0</li>
+ <li><b> index   whisky_name    label_of_class<b></li>
+<li>0             AnCnoc            0</li>
+<li>1           Auchentoshan          0</li>
+<li>2          Balblair               0</li>
+<li>3         Bruichladdich           0</li>
+<li>4          Bunnahabhain           0</li>
 <li>5           Cardhu  0</li>
 <li>6    Craigallechie  0</li>
 <li>7     Craigganmore  0</li>
