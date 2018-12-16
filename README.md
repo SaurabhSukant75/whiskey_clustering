@@ -48,7 +48,7 @@
 
 
 <h3>3.DATA SET <h3/>
-         <p4>3.1source of Data set-Whisyk Advocate:
+         <p4>3.1  source of Data set-        Whisyk Advocate:
 Whisky Advocate is America’s leading whisky publication. It’s a premier source for whisky information, education and entertainment for whisky enthusiasts.
 
 The site is one of the most famous whisky webpage. And descriptions included in the dataset are reviewd by authorized whisky reviewers.<p4/>
@@ -58,7 +58,8 @@ The site is one of the most famous whisky webpage. And descriptions included in 
 
 
 
-<p5>3.2 Data set discription and feature:-The whisky  dataset contins 86 rows of malt whisky test scores and 17 columns of taste categories and region dataset contains 86 rows of malt whisky location in scotland.The dataset we’ll be using consists of tasting ratings of one readily available single malt scotch whisky from almost every active whisky distillery in Scotland.The resulting dataset has 86 malt whiskies that are scored (dummy variables) between 0 and 4 in 12 different taste categories.The scores have been aggregated from 10 different professional whisky tasters.The taste categories describe whether the whiskies are sweet, smoky, medicinal, spicy, and so on.<p5/>
+<p5><p>3.2 Data set discription and feature:-<p>
+         The whisky  dataset contins 86 rows of malt whisky test scores and 17 columns of taste categories and region dataset contains 86 rows of malt whisky location in scotland.The dataset we’ll be using consists of tasting ratings of one readily available single malt scotch whisky from almost every active whisky distillery in Scotland.The resulting dataset has 86 malt whiskies that are scored (dummy variables) between 0 and 4 in 12 different taste categories.The scores have been aggregated from 10 different professional whisky tasters.The taste categories describe whether the whiskies are sweet, smoky, medicinal, spicy, and so on.<p5/>
 
 
 
@@ -71,30 +72,40 @@ The site is one of the most famous whisky webpage. And descriptions included in 
 
 
 
-#df.info()  ##################################################################################################
-<class 'pandas.core.frame.DataFrame'>     #####################################################################
-RangeIndex: 86 entries, 0 to 85           #####################################################################
-Data columns (total 19 columns):          #####################################################################
-RowID                86 non-null int64    #####################################################################
-Distillery           86 non-null object   #####################################################################
-Body                 86 non-null int64    #####################################################################
-Sweetness            86 non-null int64    #####################################################################
-Smoky                86 non-null int64    #####################################################################
-Medicinal            86 non-null int64    #####################################################################
-Tobacco              86 non-null int64    #####################################################################
-Honey                86 non-null int64    #####################################################################
-Spicy                86 non-null int64    #####################################################################
-Winey                86 non-null int64    #####################################################################
-Nutty                86 non-null int64    #####################################################################
-Malty                86 non-null int64    #####################################################################
-Fruity               86 non-null int64    #####################################################################
-Floral               86 non-null int64    #####################################################################
-Postcode             86 non-null object   #####################################################################
- Latitude            86 non-null int64    #####################################################################
- Longitude           86 non-null int64    #####################################################################
-Region               85 non-null object   #####################################################################
-disteliries_group    86 non-null int32    #####################################################################
-dtypes: int32(1), int64(15), object(3)    #####################################################################
+<p6>df.info() <p6/>
+         <p7>
+                  
+                  
+                 RangeIndex: 86 entries, 0 to 85
+Data columns (total 19 columns):
+RowID                86 non-null int64
+Distillery           86 non-null object
+Body                 86 non-null int64
+Sweetness            86 non-null int64
+Smoky                86 non-null int64
+Medicinal            86 non-null int64
+Tobacco              86 non-null int64
+Honey                86 non-null int64
+Spicy                86 non-null int64
+Winey                86 non-null int64
+Nutty                86 non-null int64
+Malty                86 non-null int64
+Fruity               86 non-null int64
+Floral               86 non-null int64
+Postcode             86 non-null object
+ Latitude            86 non-null int64
+ Longitude           86 non-null int64
+Region               85 non-null object
+disteliries_group    86 non-null int32
+dtypes: int32(1), int64(15), object(3)
+memory usage: 12.5+ KB 
+                  
+                  
+                  
+                  
+                  
+                  
+                  <p7/>
 
 
 
@@ -119,8 +130,8 @@ dtypes: int32(1), int64(15), object(3)    ######################################
 
 
 
-#  df.head()
-RowID Distillery  Body  Sweetness  Smoky  Medicinal  Tobacco  Honey  Spicy  \
+<p8> df.head()<p8/>
+<p9>RowID Distillery  Body  Sweetness  Smoky  Medicinal  Tobacco  Honey  Spicy  \
 0      1  Aberfeldy     2          2      2          0        0      2      1   
 1      2   Aberlour     3          3      1          0        0      4      3   
 2      3     AnCnoc     1          3      2          0        0      2      0   
@@ -139,6 +150,6 @@ RowID Distillery  Body  Sweetness  Smoky  Medicinal  Tobacco  Honey  Spicy  \
 1  Highlands                  4  
 2      Islay                  0  
 3  Highlands                  2  
-4    Islands                  1  
+4    Islands                  1  <p9/>
 
               
