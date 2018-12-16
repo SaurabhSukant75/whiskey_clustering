@@ -9,6 +9,13 @@
 
 
 ####################### ####         ########               Table of Contents:       ###   #############   ###################
+
+
+
+
+
+
+
          # 1.Introduction
          # 2.Objective
          # 3.Data set:
@@ -43,7 +50,25 @@
 Whisky Advocate is America’s leading whisky publication. It’s a premier source for whisky information, education and entertainment for whisky enthusiasts.
 
 The site is one of the most famous whisky webpage. And descriptions included in the dataset are reviewd by authorized whisky reviewers.
+
+
+
+
+
+
 3.2 Data set discription and feature:-The whisky  dataset contins 86 rows of malt whisky test scores and 17 columns of taste categories and region dataset contains 86 rows of malt whisky location in scotland.The dataset we’ll be using consists of tasting ratings of one readily available single malt scotch whisky from almost every active whisky distillery in Scotland.The resulting dataset has 86 malt whiskies that are scored (dummy variables) between 0 and 4 in 12 different taste categories.The scores have been aggregated from 10 different professional whisky tasters.The taste categories describe whether the whiskies are sweet, smoky, medicinal, spicy, and so on.
+
+
+
+
+
+
+
+
+
+
+
+
 #df.info()
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 86 entries, 0 to 85
@@ -69,6 +94,30 @@ Region               85 non-null object
 disteliries_group    86 non-null int32
 dtypes: int32(1), int64(15), object(3)
 memory usage: 12.5+ KB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #  df.head()
 Out[21]: 
    RowID Distillery  Body  Sweetness  Smoky  Medicinal  Tobacco  Honey  Spicy  \
