@@ -58,7 +58,7 @@
 <p>3.2 Data set discription and feature:-</p>
          <p>The whisky  dataset contins 86 rows of malt whisky test scores and 17 columns of taste categories and region dataset contains 86 rows of malt whisky location in scotland.The dataset we’ll be using consists of tasting ratings of one readily available single malt scotch whisky from almost every active whisky distillery in Scotland.The resulting dataset has 86 malt whiskies that are scored (dummy variables) between 0 and 4 in 12 different taste categories.The scores have been aggregated from 10 different professional whisky tasters.The taste categories describe whether the whiskies are sweet, smoky, medicinal, spicy, and so on.</p>
 
-<a> for more about data read read_for_data_info.txt file<a/>
+<b> for more about data read read_for_data_info.txt file</b>
          
          
          
@@ -83,20 +83,21 @@
 </ul>
          <p>Here, we can see 12 features are given and we have to make cluster based on these features.For this,we can find another features based on these features which is known as latent feature. Here,we can check features are independent of each other or not and after finding varience co-varience matrix ,the off diagonal element of varience co-varience matrix is not zero,which means features are not independent of each other because </p>
          
-         <p> # Two variables are independent of each other :-iff co-relation coefficient is zero</p>
+         <b> # Two variables are independent of each other :-iff co-relation coefficient is zero</b>
          
 <p>so, as a latent feature i calculate co-relation coefficient matrix based on given features whis is of 86x86 matrix.</p>
-<h7>open co_realtion_coeff_matrix.pdf file to see the co-relation coefficient matrix and thier plot </h7>
+<b>open co_realtion_coeff_matrix.pdf file to see the co-relation coefficient matrix and thier plot </b>
                        
                        
                        
                        
- <h2>Algoritham</h2> 
- <h7>How to choose Algoritham</h7>
+ <h2>5. Algoritham</h2> 
+<h3> <b>5.1 How to choose Algoritham</b></h3>
    <p>Science we only have input vector ,i.e unlabelled data set .so,This is a clear cut unsupervised problem.so,we have to find clustering Algorithm which will best suited for this .</p> 
    <p>so, we can us either <b>k-means clustering or spectral co-clustering Algoritham</b></p>
 
-
+<h3><b> Spectral Co-clustering Algoritham</b></h3>
+   <p>https://en.wikipedia.org/wiki/Biclustering</p>
  
 
 
