@@ -1,4 +1,4 @@
-# Project Title :- Classiﬁcation of Scotch Whiskeys based on their ﬂavour characteristics by using Spectral Co-Clustering algorithm. Scotch whisky is prized for its complexity and  variety of ﬂavors in the regions of Scotland.
+# Project Title :- <H>Classiﬁcation of Scotch Whiskeys based on their ﬂavour characteristics by using Spectral Co-Clustering algorithm. Scotch whisky is prized for its complexity and  variety of ﬂavors in the regions of Scotland.</H>
 
 
 
@@ -171,6 +171,8 @@
 </p>
 
 
+
+<h2>Note:</h2><p>For step by step coding and analysis read the ANALYSIS.PDF</p>
 
 
 
