@@ -73,27 +73,26 @@ The site is one of the most famous whisky webpage. And descriptions included in 
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 86 entries, 0 to 85
 Data columns (total 19 columns):
-RowID                86 non-null int64
-Distillery           86 non-null object
-Body                 86 non-null int64
-Sweetness            86 non-null int64
-Smoky                86 non-null int64
-Medicinal            86 non-null int64
-Tobacco              86 non-null int64
-Honey                86 non-null int64
-Spicy                86 non-null int64
-Winey                86 non-null int64
-Nutty                86 non-null int64
-Malty                86 non-null int64
-Fruity               86 non-null int64
-Floral               86 non-null int64
-Postcode             86 non-null object
- Latitude            86 non-null int64
- Longitude           86 non-null int64
-Region               85 non-null object
-disteliries_group    86 non-null int32
-dtypes: int32(1), int64(15), object(3)
-memory usage: 12.5+ KB
+RowID                86 non-null int64    #######################################################################
+Distillery           86 non-null object    #####################################################################
+Body                 86 non-null int64     #####################################################################
+Sweetness            86 non-null int64     #####################################################################
+Smoky                86 non-null int64     #####################################################################
+Medicinal            86 non-null int64      #####################################################################
+Tobacco              86 non-null int64     #####################################################################
+Honey                86 non-null int64      #####################################################################
+Spicy                86 non-null int64      #####################################################################
+Winey                86 non-null int64      #####################################################################
+Nutty                86 non-null int64      #####################################################################
+Malty                86 non-null int64      #####################################################################
+Fruity               86 non-null int64      #####################################################################
+Floral               86 non-null int64       #####################################################################
+Postcode             86 non-null object     #####################################################################
+ Latitude            86 non-null int64     #####################################################################
+ Longitude           86 non-null int64     #####################################################################
+Region               85 non-null object     #####################################################################
+disteliries_group    86 non-null int32     #####################################################################
+dtypes: int32(1), int64(15), object(3)     #####################################################################
 
 
 
@@ -119,8 +118,7 @@ memory usage: 12.5+ KB
 
 
 #  df.head()
-Out[21]: 
-   RowID Distillery  Body  Sweetness  Smoky  Medicinal  Tobacco  Honey  Spicy  \
+RowID Distillery  Body  Sweetness  Smoky  Medicinal  Tobacco  Honey  Spicy  \
 0      1  Aberfeldy     2          2      2          0        0      2      1   
 1      2   Aberlour     3          3      1          0        0      4      3   
 2      3     AnCnoc     1          3      2          0        0      2      0   
@@ -134,7 +132,7 @@ Out[21]:
 3      0      1      2       1       0   \tPA42 7EB     141560      646220   
 4      1      2      3       1       1   \tAB54 4NH     355350      829140   
 
-      Region  disteliries_group  
+    Region  disteliries_group  
 0   Speyside                  1  
 1  Highlands                  4  
 2      Islay                  0  
