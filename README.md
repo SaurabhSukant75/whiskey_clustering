@@ -35,8 +35,8 @@
 </ol>
 
 
-<h1>INTRODUCTION:-<h3/>
-         <p2>Scotch whisky is prized for its complexity and variety of flavors in  the regions of Scotland where it is produced are believed to have distinct flavor profiles.In this project , we will classify scotch whiskies based on their flavor characteristics.The dataset we’ll be using contains a selection of scotch whiskies from several distilleries, and we’ll attempt to cluster whiskies into groups that are similar in flavor.<p2/><h1/>
+<h1>INTRODUCTION:-</h1>
+         <p>Scotch whisky is prized for its complexity and variety of flavors in  the regions of Scotland where it is produced are believed to have distinct flavor profiles.In this project , we will classify scotch whiskies based on their flavor characteristics.The dataset we’ll be using contains a selection of scotch whiskies from several distilleries, and we’ll attempt to cluster whiskies into groups that are similar in flavor.</p>
 
 
 <h2>2.OBJECTIVE</h2>
@@ -56,7 +56,7 @@
 
 
 <p>3.2 Data set discription and feature:-</p>
-         The whisky  dataset contins 86 rows of malt whisky test scores and 17 columns of taste categories and region dataset contains 86 rows of malt whisky location in scotland.The dataset we’ll be using consists of tasting ratings of one readily available single malt scotch whisky from almost every active whisky distillery in Scotland.The resulting dataset has 86 malt whiskies that are scored (dummy variables) between 0 and 4 in 12 different taste categories.The scores have been aggregated from 10 different professional whisky tasters.The taste categories describe whether the whiskies are sweet, smoky, medicinal, spicy, and so on.<p5/>
+         <p>The whisky  dataset contins 86 rows of malt whisky test scores and 17 columns of taste categories and region dataset contains 86 rows of malt whisky location in scotland.The dataset we’ll be using consists of tasting ratings of one readily available single malt scotch whisky from almost every active whisky distillery in Scotland.The resulting dataset has 86 malt whiskies that are scored (dummy variables) between 0 and 4 in 12 different taste categories.The scores have been aggregated from 10 different professional whisky tasters.The taste categories describe whether the whiskies are sweet, smoky, medicinal, spicy, and so on.</p>
 
 <a> for more about data read read_for_data_info.txt file<a/>
          
@@ -81,8 +81,12 @@
   <li>Fruity</li>
   <li>Floral</li>
 </ul>
-         <p>Here, we can see 12 features are given and we have to make cluster based on these features.For this,we can find another features based on these features which is known as latent feature. Here,we can check features are independent of each other or not and features are not independent of each other because off diagonal element of varience co-varience matrix is not zero.  <a> Two variables are independent of each other :-
-                       iff co-relation coefficient is zero</a></p>
+         <p>Here, we can see 12 features are given and we have to make cluster based on these features.For this,we can find another features based on these features which is known as latent feature. Here,we can check features are independent of each other or not and after finding varience co-varience matrix ,the off diagonal element of varience co-varience matrix is not zero,which means features are not independent of each other because </p>
+         
+         <p> # Two variables are independent of each other :-iff co-relation coefficient is zero</p>
+         
+<p>so, as a latent feature i calculate co-relation coefficient matrix based on given features.</p>
+                       
                        
 
 
