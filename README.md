@@ -46,7 +46,7 @@
 
 
 
-<h3>3.DATA SET <h3/>
+<h2>3.DATA SET </h2>
  <p>3.1  source of Data set:-   
  Whisky Advocate is America’s leading whisky publication. It’s a premier source for whisky information, education and entertainment for whisky enthusiasts.The site is one of the most famous whisky webpage. And descriptions included in the dataset are reviewd by authorized whisky reviewers.</p>
 
@@ -65,7 +65,7 @@
          
          
          
- <h4>4.Feature extrection:</h4>   
+ <h2>4.Feature extrection:</h2>   
          <p>Given features are following:<p/>
          <ul>
   <li>Body  </li>
