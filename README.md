@@ -85,12 +85,19 @@
          
          <p> # Two variables are independent of each other :-iff co-relation coefficient is zero</p>
          
-<p>so, as a latent feature i calculate co-relation coefficient matrix based on given features.</p>
+<p>so, as a latent feature i calculate co-relation coefficient matrix based on given features whis is of 86x86 matrix.</p>
+<h7>open co_realtion_coeff_matrix.pdf file to see the co-relation coefficient matrix and thier plot </h7>
                        
                        
+                       
+                       
+ <h2>Algoritham</h2> 
+ <h7>How to choose Algoritham</h7>
+   <p>Science we only have input vector ,i.e unlabelled data set .so,This is a clear cut unsupervised problem.so,we have to find clustering Algorithm which will best suited for this .</p> 
+   <p>so, we can us either <b>k-means clustering or spectral co-clustering Algoritham</b></p>
 
 
-
+ 
 
 
 
