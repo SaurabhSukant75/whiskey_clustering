@@ -8,7 +8,7 @@
 
 
 
-<h>  Table of Contents: <h/>
+<h1>  Table of Contents: </h1>
 
 
    <ol>
@@ -39,14 +39,14 @@
          <p>Scotch whisky is prized for its complexity and variety of flavors in  the regions of Scotland where it is produced are believed to have distinct flavor profiles.In this project , we will classify scotch whiskies based on their flavor characteristics.The dataset we’ll be using contains a selection of scotch whiskies from several distilleries, and we’ll attempt to cluster whiskies into groups that are similar in flavor.</p>
 
 
-<h2>2.OBJECTIVE</h2>
+<h2>2.OBJECTIVE:-</h2>
    <p>To make cluster of scotch whisky based on their flavour characteristics.</p>
 
 
 
 
 
-<h2>3.DATA SET </h2>
+<h2>3.DATA SET:- </h2>
  <p>3.1  source of Data set:-   
  Whisky Advocate is America’s leading whisky publication. It’s a premier source for whisky information, education and entertainment for whisky enthusiasts.The site is one of the most famous whisky webpage. And descriptions included in the dataset are reviewd by authorized whisky reviewers.</p>
 
@@ -65,7 +65,7 @@
          
          
          
- <h2>4.Feature extrection:</h2>   
+ <h2>4.Feature extrection:-</h2>   
          <p>Given features are following:<p/>
          <ul>
   <li>Body  </li>
@@ -91,14 +91,15 @@
                        
                        
                        
- <h2>5. Algoritham</h2> 
+ <h2>5. Algoritham:-</h2> 
 <h3> <b>5.1 How to choose Algoritham</b></h3>
    <p>Science we only have input vector ,i.e unlabelled data set .so,This is a clear cut unsupervised problem.so,we have to find clustering Algorithm which will best suited for this .</p> 
    <p>so, we can us either <b>k-means clustering or spectral co-clustering Algoritham</b></p>
 
 <h3><b> Spectral Co-clustering Algoritham</b></h3>
+   <p>click on the belowlink.<p>
    <p>https://en.wikipedia.org/wiki/Biclustering</p>
- 
+ <h2>Result:-</h2>
 
 
 
