@@ -61,7 +61,7 @@ The site is one of the most famous whisky webpage. And descriptions included in 
 <p5><p>3.2 Data set discription and feature:-<p>
          The whisky  dataset contins 86 rows of malt whisky test scores and 17 columns of taste categories and region dataset contains 86 rows of malt whisky location in scotland.The dataset we’ll be using consists of tasting ratings of one readily available single malt scotch whisky from almost every active whisky distillery in Scotland.The resulting dataset has 86 malt whiskies that are scored (dummy variables) between 0 and 4 in 12 different taste categories.The scores have been aggregated from 10 different professional whisky tasters.The taste categories describe whether the whiskies are sweet, smoky, medicinal, spicy, and so on.<p5/>
 
-<h5> for more about data read datahtml.html file<h5/><a  "">click here</a>
+<h5> for more about data read datahtml.html file<h5/><a  "https://github.com/SaurabhSukant75/whisky_clustering/blob/master/data_readme.html">click here</a>
 
 
 
