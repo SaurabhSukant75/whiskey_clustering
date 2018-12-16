@@ -11,31 +11,27 @@
 <h>  Table of Contents: <h/>
 
 
+         <ol>
+  <li>Introduction </li>
+  <li>Objective</li>
+  <li>Data set:</li><ol>
+         <li>Source of data set<li/>
+         <li>Data set discription and feature<li/>
+         <ol/>
+   <li>Feature extrection:</li>
+         <ol>
+         <li>Features<li/>
+         <li>Latent feattures<li/>
+         <ol/>
+  <li>Algoritham:</li>
+                  <ol>
+         <li>How to choose Algorithm<li/>
+         <li>spectral co clustering algorithm<li/>
+         <ol/>
+  <li>Validation</li>
+  <li>Result</li>
 
-
-
-
-
-
-
-
-
-<p1>
-         # 1.Introduction
-         # 2.Objective
-         # 3.Data set:
-              3.1 Source of data set
-              3.2 Data set discription and feature
-              
-          #4.Feature extrection:
-              4.1 Latent feature
-         # 5. Algoritham:
-              5.1 spectral co clustering algorithm
-          #6. Validation
-          #7.Result
-
-<p/>
-
+</ol>
 
 
 <h1>INTRODUCTION:-<h3/>
