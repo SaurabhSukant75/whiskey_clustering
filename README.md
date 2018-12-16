@@ -12,25 +12,25 @@
 
 
    <ol>
-  <li>1.Introduction </li>
-  <li>2.Objective</li>
-  <li>3.Data set:</li>
+  <li>Introduction </li>
+  <li>Objective</li>
+  <li>Data set:</li>
          <ol>
          <li>Source of data set</li>
          <li>Data set discription and feature</li>
           </ol>
-   <li>4.Feature extrection:</li>
+   <li>Feature extrection:</li>
          <ol>
          <li>Features</li>
          <li>Latent feattures</li>
           </ol>
-  <li>5.Algoritham:</li>
-         <ol>
-         <li>How to choose Algorithm<li/>
-         <li>spectral co clustering algorithm<li/>
+  <li>Algoritham:</li>
+            <ol>
+         <li>How to choose Algorithm</li>
+         <li>spectral co clustering algorithm</li>
           </ol>
-  <li>6.Validation</li>
-  <li>7.Result</li>
+  <li>Validation</li>
+  <li>Result</li>
 
 </ol>
 
