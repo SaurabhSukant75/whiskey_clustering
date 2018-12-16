@@ -1,5 +1,13 @@
 # Project Title :- Classiﬁcation of Scotch Whiskeys based on their ﬂavour characteristics by using Spectral Co-Clustering algorithm. Scotch whisky is prized for its complexity and  variety of ﬂavors in the regions of Scotland.
 
+
+
+
+
+
+
+
+
 ####################### ####         ########               Table of Contents:       ###   #############   ###################
          # 1.Introduction
          # 2.Objective
@@ -22,6 +30,15 @@
 
 
 #2.OBJECTIVE:-To make cluster of scotch whisky based on their flavour characteristics.
+
+
+
+
+
+
+
+
+
 #3.DATA SET:3.1 source of Data set-Whisyk Advocate:
 Whisky Advocate is America’s leading whisky publication. It’s a premier source for whisky information, education and entertainment for whisky enthusiasts.
 
