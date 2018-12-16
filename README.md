@@ -11,12 +11,14 @@
 <h>  Table of Contents: <h/>
 
 
-         <ol>
+   <ol>
   <li>1.Introduction </li>
   <li>2.Objective</li>
   <li>3.Data set:</li>
+         <ol>
          <li>Source of data set</li>
          <li>Data set discription and feature</li>
+          </ol>
    <li>4.Feature extrection:</li>
          <li>Features</li>
          <li>Latent feattures</li>
