@@ -20,11 +20,15 @@
          <li>Data set discription and feature</li>
           </ol>
    <li>4.Feature extrection:</li>
+         <ol>
          <li>Features</li>
          <li>Latent feattures</li>
+          </ol>
   <li>5.Algoritham:</li>
+         <ol>
          <li>How to choose Algorithm<li/>
          <li>spectral co clustering algorithm<li/>
+          </ol>
   <li>6.Validation</li>
   <li>7.Result</li>
 
