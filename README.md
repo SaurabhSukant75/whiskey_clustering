@@ -33,7 +33,7 @@
 
 
 
-#INTRODUCTION:-Scotch whisky is prized for its complexity and variety of flavors in  the regions of Scotland where it is produced are believed to have distinct flavor profiles.In this project , we will classify scotch whiskies based on their flavor characteristics.The dataset we’ll be using contains a selection of scotch whiskies from several distilleries, and we’ll attempt to cluster whiskies into groups that are similar in flavor.
+<h1>INTRODUCTION<h1/>:-<p>Scotch whisky is prized for its complexity and variety of flavors in  the regions of Scotland where it is produced are believed to have distinct flavor profiles.In this project , we will classify scotch whiskies based on their flavor characteristics.The dataset we’ll be using contains a selection of scotch whiskies from several distilleries, and we’ll attempt to cluster whiskies into groups that are similar in flavor.<p/>
 
 
 #2.OBJECTIVE:-To make cluster of scotch whisky based on their flavour characteristics.
