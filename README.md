@@ -8,7 +8,7 @@
 
 
 
-<h1>  Table of Contents: </h1>
+<p><b>  Table of Contents: </b></p>
 
 
    <ol>
@@ -100,7 +100,74 @@
    <p>click on the belowlink.<p>
    <p>https://en.wikipedia.org/wiki/Biclustering</p>
  <h2>Result:-</h2>
+   <p>Based on variety of flavour characteristics of scotch whisky ,Malt whiskies are categories into five cluster  which are following-</p>
+<p>
+   <ul>
+       0  1
+0           AnCnoc  0
+1     Auchentoshan  0
+2         Balblair  0
+3    Bruichladdich  0
+4     Bunnahabhain  0
+5           Cardhu  0
+6    Craigallechie  0
+7     Craigganmore  0
+8       Dalwhinnie  0
+9         Dufftown  0
+10       GlenMoray  0
+11    Glenallachie  0
+12      Glenlossie  0
+13    Glenmorangie  0
+14     Loch Lomond  0
+15      Strathmill  0
+16      Tamnavulin  0
+17       Tobermory  0
+18       Aberfeldy  1
+19         Ardmore  1
+20        Aultmore  1
+21        BenNevis  1
+22       Benrinnes  1
+23       Benromach  1
+24      BlairAthol  1
+25        Edradour  1
+26       GlenGrant  1
+27      GlenScotia  1
+28       Glengoyne  1
+29        Longmorn  1
+..             ... ..
+56        GlenSpey  3
+57     Glenfiddich  3
+58     Glenkinchie  3
+59       Glenlivet  3
+60       Inchgower  3
+61        Linkwood  3
+62    RoyalBrackla  3
+63        Speyburn  3
+64       Teaninich  3
+65       Tomintoul  3
+66    Tullibardine  3
+67        Aberlour  4
+68       Auchroisk  4
+69       Balmenach  4
+70       Dailuaine  4
+71         Dalmore  4
+72        Deanston  4
+73       GlenKeith  4
+74     Glendronach  4
+75      Glendullan  4
+76     Glenfarclas  4
+77      Glenrothes  4
+78      Glenturret  4
+79   Highland Park  4
+80       Knochando  4
+81        Macallan  4
+82        Mortlach  4
+83  RoyalLochnagar  4
+84         Tomatin  4
+85         Tormore  4
 
+</ul>
+</p>
 
 
 
