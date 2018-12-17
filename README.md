@@ -101,8 +101,8 @@
    <p>https://en.wikipedia.org/wiki/Biclustering</p>
  <h2>Result:-</h2>
    <p>Based on variety of flavour characteristics of scotch whisky ,Malt whiskies from 86 different distillery  are categories into five cluster  which are following-</p>
-   <p>(here,o,1,2,3,4 show the label of class ,they are just dummy variables to describe different cluster.)</p>
-   <p>0-->1st cluster,1-->2nd cluster,2-->3rd cluster and so on... </p>
+   <p>(here,o,1,2,3,4 show the label of class ,they are just dummy variables to describe different cluster.0-->1st cluster,1-->2nd cluster,2-->3rd cluster and so on...)</p>
+   
 <p>
    <b>  whisky_name   --->label_of_class<b>
    <ul>
