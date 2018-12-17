@@ -100,72 +100,72 @@
    <p>click on the belowlink.<p>
    <p>https://en.wikipedia.org/wiki/Biclustering</p>
  <h2>Result:-</h2>
-   <p>Based on variety of flavour characteristics of scotch whisky ,Malt whiskies are categories into five cluster  which are following-</p>
+   <p>Based on variety of flavour characteristics of scotch whisky ,Malt whiskies from 86 different distillery  are categories into five cluster  which are following-</p>
    <p>(here,o,1,2,3,4 show the label of class ,they are just dummy variables to describe different cluster.)</p>
 <p>
    <ul>
- <li><b>  whisky_name    label_of_class<b></li>
-<li>            AnCnoc            0</li>
-<li>         Auchentoshan          0</li>
-<li>         Balblair               0</li>
-<li>        Bruichladdich           0</li>
-<li>          Bunnahabhain           0</li>
-<li>           Cardhu  0</li>
-<li>    Craigallechie  0</li>
-<li>     Craigganmore  0</li>
-<li>      Dalwhinnie  0</li>
-<li>         Dufftown  0</li>
-<li>       GlenMoray  0</li>
-<li>    Glenallachie  0</li>
-<li>      Glenlossie  0</li>
-<li>    Glenmorangie  0</li>
-<li>     Loch Lomond  0</li>
-<li>      Strathmill  0</li>
-<li>      Tamnavulin  0</li>
-<li>       Tobermory  0</li>
-<li>       Aberfeldy  1</li>
-<li>         Ardmore  1</li>
-<li>       Aultmore  1</li>
-<li>        BenNevis  1</li>
-<li>       Benrinnes  1</li>
-<li>       Benromach  1</li>
-<li>      BlairAthol  1</li>
-<li>        Edradour  1</li>
-<li>       GlenGrant  1</li>
-<li>      GlenScotia  1</li>
-<li>       Glengoyne  1</li>
-<li>        Longmorn  1</li>
-<li>..             ... ..</li>
-<li>        GlenSpey  3</li>
-<li>     Glenfiddich  3</li>
-<li>     Glenkinchie  3</li>
-<li>       Glenlivet  3</li>
-<li>       Inchgower  3</li>
-<li>        Linkwood  3</li>
-<li>    RoyalBrackla  3</li>
-<li>        Speyburn  3</li>
-<li>       Teaninich  3</li>
-<li>       Tomintoul  3</li>
-<li>    Tullibardine  3</li>
-<li>        Aberlour  4</li>
-<li>       Auchroisk  4</li>
-<li>       Balmenach  4</li>
-<li>     Dailuaine  4</li>
-<li>         Dalmore  4</li>
-<li>        Deanston  4</li>
-<li>       GlenKeith  4</li>
-<li>     Glendronach  4</li>
-<li>      Glendullan  4</li>
-<li>     Glenfarclas  4</li>
-<li>      Glenrothes  4</li>
-<li>      Glenturret  4</li>
-<li>   Highland Park  4</li>
-<li>       Knochando  4</li>
-<li>        Macallan  4</li>
-<li>        Mortlach  4</li>
-<li>  RoyalLochnagar  4</li>
-<li>         Tomatin  4</li>
-<li>         Tormore  4</li>
+ <li><b>  whisky_name   --->label_of_class<b></li>
+<li>            AnCnoc   --->         0</li>
+<li>         Auchentoshan --->         0</li>
+<li>         Balblair    --->           0</li>
+<li>        Bruichladdich  --->         0</li>
+<li>          Bunnahabhain --->          0</li>
+<li>           Cardhu--->  0</li>
+<li>    Craigallechie ---> 0</li>
+<li>     Craigganmore ---> 0</li>
+<li>      Dalwhinnie ---> 0</li>
+<li>         Dufftown--->  0</li>
+<li>       GlenMoray ---> 0</li>
+<li>    Glenallachie ---> 0</li>
+<li>      Glenlossie ---> 0</li>
+<li>    Glenmorangie ---> 0</li>
+<li>     Loch Lomond ---> 0</li>
+<li>      Strathmill ---> 0</li>
+<li>      Tamnavulin ---> 0</li>
+<li>       Tobermory ---> 0</li>
+<li>       Aberfeldy ---> 1</li>
+<li>         Ardmore ---> 1</li>
+<li>       Aultmore  --->1</li>
+<li>        BenNevis ---> 1</li>
+<li>       Benrinnes ---> 1</li>
+<li>       Benromach  --->1</li>
+<li>      BlairAthol ---> 1</li>
+<li>        Edradour ---> 1</li>
+<li>       GlenGrant ---> 1</li>
+<li>      GlenScotia ---> 1</li>
+<li>       Glengoyne ---> 1</li>
+<li>        Longmorn ---> 1</li>
+<li>..             --->... ..</li>
+<li>        GlenSpey ---> 3</li>
+<li>     Glenfiddich ---> 3</li>
+<li>     Glenkinchie ---> 3</li>
+<li>       Glenlivet ---> 3</li>
+<li>       Inchgower ---> 3</li>
+<li>        Linkwood ---> 3</li>
+<li>    RoyalBrackla ---> 3</li>
+<li>        Speyburn ---> 3</li>
+<li>       Teaninich ---> 3</li>
+<li>       Tomintoul ---> 3</li>
+<li>    Tullibardine ---> 3</li>
+<li>        Aberlour ---> 4</li>
+<li>       Auchroisk ---> 4</li>
+<li>       Balmenach ---> 4</li>
+<li>     Dailuaine ---> 4</li>
+<li>         Dalmore ---> 4</li>
+<li>        Deanston ---> 4</li>
+<li>       GlenKeith ---> 4</li>
+<li>     Glendronach ---> 4</li>
+<li>      Glendullan ---> 4</li>
+<li>     Glenfarclas ---> 4</li>
+<li>      Glenrothes ---> 4</li>
+<li>      Glenturret ---> 4</li>
+<li>   Highland Park ---> 4</li>
+<li>       Knochando ---> 4</li>
+<li>        Macallan ---> 4</li>
+<li>        Mortlach ---> 4</li>
+<li>  RoyalLochnagar ---> 4</li>
+<li>         Tomatin ---> 4</li>
+<li>         Tormore ---> 4</li>
 
 </ul>
 </p>
