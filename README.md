@@ -29,7 +29,7 @@
          <li>How to choose Algorithm</li>
          <li>spectral co clustering algorithm</li>
           </ol>
-  <li>Validation</li>
+  
   <li>Result</li>
 
 </ol>
