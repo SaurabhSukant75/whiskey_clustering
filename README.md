@@ -104,7 +104,7 @@
    <p>(here,o,1,2,3,4 show the label of class ,they are just dummy variables to describe different cluster.0-->1st cluster,1-->2nd cluster,2-->3rd cluster and so on...)</p>
    
 <p>
-   <b>  whisky_name   --->label_of_class<b>
+   <b>  Distillery_name   --->label_of_class<b>
    <ul>
 
 <li>            AnCnoc   --->         0</li>
