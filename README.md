@@ -47,16 +47,16 @@
 
 
 <h2>3.DATA SET:- </h2>
- <p>3.1  source of Data set:-   
- Whisky Advocate is America’s leading whisky publication. It’s a premier source for whisky information, education and entertainment for whisky enthusiasts.The site is one of the most famous whisky webpage. And descriptions included in the dataset are reviewd by authorized whisky reviewers.</p>
+ <p><b>3.1  source of Data set:- </b> <p>http://whiskyadvocate.com/</p> 
+ Whisky Advocate is America’s leading whisky publication. It’s a premier source for whisky information, education and entertainment for whisky enthusiasts.The site is one of the most famous whisky webpage. </p>
 
 
 
 
 
 
-<p>3.2 Data set discription and feature:-</p>
-         <p>The whisky  dataset contins 86 rows of malt whisky test scores and 17 columns of taste categories and region dataset contains 86 rows of malt whisky location in scotland.The dataset we’ll be using consists of tasting ratings of one readily available single malt scotch whisky from almost every active whisky distillery in Scotland.The resulting dataset has 86 malt whiskies that are scored (dummy variables) between 0 and 4 in 12 different taste categories.The scores have been aggregated from 10 different professional whisky tasters.The taste categories describe whether the whiskies are sweet, smoky, medicinal, spicy, and so on.</p>
+<p><b>3.2 Data set discription and feature:-</b></p>
+         <p>The<b> whisky  dataset </b>contins 86 rows of malt whisky test scores and 17 columns of taste categories and <b>region dataset </b>contains 86 rows of active whisky distillery location in scotland.The dataset we’ll be using consists of tasting ratings of one readily available single malt scotch whisky from almost every active whisky distillery in Scotland.The resulting dataset has 86 malt whiskies that are scored (dummy variables) between 0 and 4 in 12 different taste categories.The scores have been aggregated from 10 different professional whisky tasters.The taste categories describe whether the whiskies are sweet, smoky, medicinal, spicy, and so on.</p>
 
 <b> for more about data read read_for_data_info.txt file</b>
          
@@ -81,7 +81,7 @@
   <li>Fruity</li>
   <li>Floral</li>
 </ul>
-         <p>Here, we can see 12 features are given and we have to make cluster based on these features.For this,we can find another features based on these features which is known as latent feature. Here,we can check features are independent of each other or not and after finding varience co-varience matrix ,the off diagonal element of varience co-varience matrix is not zero,which means features are not independent of each other because </p>
+         <p>Here, we can see 12 features are given and we have to make cluster based on these features.Here,I tried to find out a latent features which can well discribed all 12 features.For this,I find varience co-varience matrix for checking features are independent of each other or not and after finding varience co-varience matrix ,the off diagonal element of varience co-varience matrix is not zero,which means features are not independent of each other.for more information click here https://en.wikipedia.org/wiki/Covariance_matrix </p>
          
          <b> # Two variables are independent of each other :-iff co-relation coefficient is zero</b>
          
@@ -93,7 +93,7 @@
                        
  <h2>5. Algoritham:-</h2> 
 <h3> <b>5.1 How to choose Algoritham</b></h3>
-   <p>Science we only have input vector ,i.e unlabelled data set .so,This is a clear cut unsupervised problem.so,we have to find clustering Algorithm which will best suited for this .</p> 
+   <p>Science we only have input vector ,i.e unlabelled data set .so,This is a clear cut unsupervised learning problem.so,we have to find clustering Algorithm which will best suited for this .</p> 
    <p>so, we can us either <b>k-means clustering or spectral co-clustering Algoritham</b></p>
 
 <h3><b> Spectral Co-clustering Algoritham</b></h3>
@@ -101,71 +101,71 @@
    <p>https://en.wikipedia.org/wiki/Biclustering</p>
  <h2>Result:-</h2>
    <p>Based on variety of flavour characteristics of scotch whisky ,Malt whiskies are categories into five cluster  which are following-</p>
-   <p>here,o,1,2,3,4 show the label of class ,they are just dummy variables to describe different cluster.</p>
+   <p>(here,o,1,2,3,4 show the label of class ,they are just dummy variables to describe different cluster.)</p>
 <p>
    <ul>
- <li><b> index   whisky_name    label_of_class<b></li>
-<li>0             AnCnoc            0</li>
-<li>1           Auchentoshan          0</li>
-<li>2          Balblair               0</li>
-<li>3         Bruichladdich           0</li>
-<li>4          Bunnahabhain           0</li>
-<li>5           Cardhu  0</li>
-<li>6    Craigallechie  0</li>
-<li>7     Craigganmore  0</li>
-<li>8       Dalwhinnie  0</li>
-<li>9         Dufftown  0</li>
-<li>10       GlenMoray  0</li>
-<li>11    Glenallachie  0</li>
-<li>12      Glenlossie  0</li>
-<li>13    Glenmorangie  0</li>
-<li>14     Loch Lomond  0</li>
-<li>15      Strathmill  0</li>
-<li>16      Tamnavulin  0</li>
-<li>17       Tobermory  0</li>
-<li>18       Aberfeldy  1</li>
-<li>19         Ardmore  1</li>
-<li>20        Aultmore  1</li>
-<li>21        BenNevis  1</li>
-<li>22       Benrinnes  1</li>
-<li>23       Benromach  1</li>
-<li>24      BlairAthol  1</li>
-<li>25        Edradour  1</li>
-<li>26       GlenGrant  1</li>
-<li>27      GlenScotia  1</li>
-<li>28       Glengoyne  1</li>
-<li>29        Longmorn  1</li>
+ <li><b>  whisky_name    label_of_class<b></li>
+<li>            AnCnoc            0</li>
+<li>         Auchentoshan          0</li>
+<li>         Balblair               0</li>
+<li>        Bruichladdich           0</li>
+<li>          Bunnahabhain           0</li>
+<li>           Cardhu  0</li>
+<li>    Craigallechie  0</li>
+<li>     Craigganmore  0</li>
+<li>      Dalwhinnie  0</li>
+<li>         Dufftown  0</li>
+<li>       GlenMoray  0</li>
+<li>    Glenallachie  0</li>
+<li>      Glenlossie  0</li>
+<li>    Glenmorangie  0</li>
+<li>     Loch Lomond  0</li>
+<li>      Strathmill  0</li>
+<li>      Tamnavulin  0</li>
+<li>       Tobermory  0</li>
+<li>       Aberfeldy  1</li>
+<li>         Ardmore  1</li>
+<li>       Aultmore  1</li>
+<li>        BenNevis  1</li>
+<li>       Benrinnes  1</li>
+<li>       Benromach  1</li>
+<li>      BlairAthol  1</li>
+<li>        Edradour  1</li>
+<li>       GlenGrant  1</li>
+<li>      GlenScotia  1</li>
+<li>       Glengoyne  1</li>
+<li>        Longmorn  1</li>
 <li>..             ... ..</li>
-<li>56        GlenSpey  3</li>
-<li>57     Glenfiddich  3</li>
-<li>58     Glenkinchie  3</li>
-<li>59       Glenlivet  3</li>
-<li>60       Inchgower  3</li>
-<li>61        Linkwood  3</li>
-<li>62    RoyalBrackla  3</li>
-<li>63        Speyburn  3</li>
-<li>64       Teaninich  3</li>
-<li>65       Tomintoul  3</li>
-<li>66    Tullibardine  3</li>
-<li>67        Aberlour  4</li>
-<li>68       Auchroisk  4</li>
-<li>69       Balmenach  4</li>
-<li>70       Dailuaine  4</li>
-<li>71         Dalmore  4</li>
-<li>72        Deanston  4</li>
-<li>73       GlenKeith  4</li>
-<li>74     Glendronach  4</li>
-<li>75      Glendullan  4</li>
-<li>76     Glenfarclas  4</li>
-<li>77      Glenrothes  4</li>
-<li>78      Glenturret  4</li>
-<li>79   Highland Park  4</li>
-<li>80       Knochando  4</li>
-<li>81        Macallan  4</li>
-<li>82        Mortlach  4</li>
-<li>83  RoyalLochnagar  4</li>
-<li>84         Tomatin  4</li>
-<li>85         Tormore  4</li>
+<li>        GlenSpey  3</li>
+<li>     Glenfiddich  3</li>
+<li>     Glenkinchie  3</li>
+<li>       Glenlivet  3</li>
+<li>       Inchgower  3</li>
+<li>        Linkwood  3</li>
+<li>    RoyalBrackla  3</li>
+<li>        Speyburn  3</li>
+<li>       Teaninich  3</li>
+<li>       Tomintoul  3</li>
+<li>    Tullibardine  3</li>
+<li>        Aberlour  4</li>
+<li>       Auchroisk  4</li>
+<li>       Balmenach  4</li>
+<li>     Dailuaine  4</li>
+<li>         Dalmore  4</li>
+<li>        Deanston  4</li>
+<li>       GlenKeith  4</li>
+<li>     Glendronach  4</li>
+<li>      Glendullan  4</li>
+<li>     Glenfarclas  4</li>
+<li>      Glenrothes  4</li>
+<li>      Glenturret  4</li>
+<li>   Highland Park  4</li>
+<li>       Knochando  4</li>
+<li>        Macallan  4</li>
+<li>        Mortlach  4</li>
+<li>  RoyalLochnagar  4</li>
+<li>         Tomatin  4</li>
+<li>         Tormore  4</li>
 
 </ul>
 </p>
